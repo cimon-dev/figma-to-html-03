@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #FFB900;
+    /* --primary-color: #FFB900; */
 }
 
 * {
@@ -13,7 +13,7 @@ html {
 /* khôi phục lại cỡ chữ mặc định theo rem */
 body {
     font-size: 1.6rem;
-    font-family: "Poppins", serif;
+    font-family: "Sora", serif;
 }
 
 /* ===============common=============== */
