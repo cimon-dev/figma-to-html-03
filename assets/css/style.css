@@ -1,5 +1,5 @@
 :root {
-    /* --primary-color: #FFB900; */
+    --primary-color: #2E80CE;
 }
 
 * {
@@ -19,4 +19,128 @@ body {
 /* ===============common=============== */
 a {
     text-decoration: none;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    min-width: 104px;
+    height: 44px;
+    border-radius: 22px;
+    background: var(--primary-color);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* ===============header=============== */
+.header {
+    background-color: #10375C;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 30px 0 8px;
+}
+
+.header.fixed {
+    position: sticky;
+    width: 100%;
+    top: -22px;
+}
+
+.header .logo {
+    width: 30px;
+    height: 30px;
+}
+
+.header .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo-container .text {
+    margin-left: 6px;
+}
+
+.header .logo-container .shine-text {
+    color: #FFF;
+    text-align: right;
+    font-size: 1.8rem;
+    line-height: 0.78;
+}
+
+.header .logo-container .smile-text {
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: right;
+}
+
+.header .nav {
+    margin-left: auto;
+    margin-right: 222px;
+}
+
+.header .nav ul {
+    display: flex;
+}
+
+.header .nav a {
+    position: relative;
+    color: #C9D2DA;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    padding: 8px 21px;
+}
+
+.header .nav a:hover {
+    color: #FFF;
+    text-shadow: 0.5px 0px 0px #FFF;
+}
+
+.header .nav a:hover::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #FFF;
+    left: 10px;
+    top: 15px;
+    border-radius: 50%;
+}
+
+.header .action {
+    display: flex;
+    align-items: center;
+}
+
+.header .action .log-in {
+    color: #C9D2DA;
+    text-align: right;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.header .action .btn-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    margin-left: 28px;
 }
