@@ -420,7 +420,7 @@ a {
 
 /* ===============featured=============== */
 .featured {
-    margin: 170px 0;
+    padding: 170px 0;
 }
 
 .featured .body {
@@ -477,4 +477,72 @@ a {
     width: 205px;
     height: 60px;
     border-radius: 30px;
+}
+
+/* ===============dentists=============== */
+.dentists {
+    padding: 83px 0 170px;
+}
+
+.dentists .dentists-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dentists .btn-meet-our-dentists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 38px;
+    color: #FFF;
+    font-size: 1.8rem;
+    line-height: 1.67;
+}
+
+.dentists .dentists-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.dentists .dentist .thumb {
+    position: relative;
+    width: 270px;
+    height: 318px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #EAF6FF;
+}
+
+.dentists .dentist .thumb img {
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.dentists .dentist .name {
+    margin-top: 12px;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+
+.dentists .dentist .desc {
+    color: #575F66;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.86;
+}
+
+.dentists .controls .dentists .controls .next img {
+    transform: rotate(180deg);
 }
